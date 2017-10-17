@@ -1,7 +1,7 @@
 {
     "name": "xpressengine/laravel-cubrid",
     "description": "The cubrid database connetor for laravel",
-    "keywords": ["laravel", "database", "db", , "cubrid", "xpressengine"],
+    "keywords": ["laravel", "database", "db", "cubrid", "xpressengine"],
     "license": "LGPL-2.1",
     "authors": [
         {
