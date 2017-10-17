@@ -1,0 +1,36 @@
+{
+    "name": "xpressengine/laravel-cubrid",
+    "description": "The cubrid database connetor for laravel",
+    "keywords": ["laravel", "database", "db", , "cubrid", "xpressengine"],
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "XE Developers",
+            "email": "developers@xpressengine.com",
+            "homepage": "http://xpressengine.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "5.5.*",
+        "illuminate/support": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xpressengine\\Cubrid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xpressengine\\Cubrid\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "illuminate/framework": "5.5.*"
+    }
+}
