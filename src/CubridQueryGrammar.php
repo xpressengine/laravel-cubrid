@@ -85,6 +85,18 @@ class CubridQueryGrammar extends Grammar
     }
 
     /**
+     * Compile exist SQL
+     * 
+     * @param Builder $query
+     *
+     * @return string
+     */
+    public function compileExists(Builder $query)
+    {
+        return $query->selectRaw("count(*) as `exists`")->toSql();
+    }
+    
+    /**
      * Compile an update statement into SQL.
      *
      * @param  \Illuminate\Database\Query\Builder  $query
